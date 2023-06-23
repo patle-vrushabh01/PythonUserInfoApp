@@ -1,0 +1,25 @@
+summary: create customer
+description: create a new customer
+responses:
+  '200': {}
+consumes:
+  - application/json
+produces:
+  - application/json
+parameters:
+        - name: body
+          in: body
+          required: false
+          schema:
+            type: object
+            description: customer object (Optional)
+            properties:
+              customer_id:
+                type: integer
+              customer_name:
+                type: string
+              customer_email:
+                type: string
+              
+
+

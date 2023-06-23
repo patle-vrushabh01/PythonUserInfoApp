@@ -1,0 +1,23 @@
+summary: create customer
+description: create a new customer
+responses:
+  '200': {}
+parameters:
+        - name: customer_id
+          in: query
+          required: false
+          schema:
+            type: integer
+            description: customer id (Optional)
+        - name: customer_name
+          in: query
+          required: false
+          schema:
+            type: string
+            description: customer name (Optional)
+        - name: customer_email
+          in: query
+          required: false
+          schema:
+            type: string
+            description: customer email (Optional)

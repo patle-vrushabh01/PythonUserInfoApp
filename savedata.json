@@ -1,0 +1,17 @@
+[
+      {
+            "customer_id": "1",
+            "customer_name": "arpita",
+            "customer_email": "arpita@gmail.com"
+      },
+      {
+            "customer_id": "2",
+            "customer_name": "sanghamita",
+            "customer_email": "sanghamitra@gmail.com"
+      },
+      {
+            "customer_id": "3",
+            "customer_name": "vrushabh",
+            "customer_email": "vrushabh@nomail.com"
+      }
+]

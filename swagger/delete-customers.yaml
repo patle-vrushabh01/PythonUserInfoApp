@@ -1,0 +1,12 @@
+summary: Delete customers
+description: Delete customers by Id.
+responses:
+  '200': {}
+parameters:
+        - name: customer_id
+          in: query
+          required: true
+          schema:
+            type: integer
+            description: city name
+

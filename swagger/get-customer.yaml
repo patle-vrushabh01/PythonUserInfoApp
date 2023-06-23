@@ -1,0 +1,4 @@
+summary: Get customers
+description: Get customers.
+responses:
+  '200': {}
