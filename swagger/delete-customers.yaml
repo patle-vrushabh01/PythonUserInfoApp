@@ -1,7 +1,9 @@
 summary: Delete customers
 description: Delete customers by Id.
 responses:
-  '200': {}
+  '200': {
+    'description': "OK"
+  }
 parameters:
         - name: customer_id
           in: query

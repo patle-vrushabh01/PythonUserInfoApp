@@ -1,4 +1,6 @@
 summary: Get customers
 description: Get customers.
 responses:
-  '200': {}
+  '200': {
+    'description': "OK"
+  }

@@ -1,7 +1,10 @@
 summary: create customer
 description: create a new customer
 responses:
-  '200': {}
+  '200': {
+    'description': "OK"
+  }
+  
 parameters:
         - name: customer_id
           in: query

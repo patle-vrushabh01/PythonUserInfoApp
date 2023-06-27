@@ -1,7 +1,9 @@
 summary: Update customer
 description: update the customer by id
 responses:
-  '200': {}
+  '200': {
+    'description': "OK"
+  }
 parameters:
         - name: customer_id
           in: query
