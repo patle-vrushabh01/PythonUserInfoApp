@@ -4,6 +4,10 @@ responses:
   '200': {
     'description': "OK"
   }
+definitions:
+    'name': {
+    'apiname':'Update customer'
+    }
 parameters:
         - name: customer_id
           in: query
